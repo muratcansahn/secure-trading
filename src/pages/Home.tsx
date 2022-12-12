@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { buttons } from "../utils";
+import { Link } from "react-router-dom";
 
 const Home: FC = () => {
   return (
@@ -8,12 +9,13 @@ const Home: FC = () => {
       <div className="flex w-[350px] font-bold  flex-wrap gap-y-5">
         {buttons.map((button) => {
           return (
-            <button
-              key={button.id}
-              className="bg-teal-300 py-3 text-xl text-white w-full rounded-md "
+            <Link
+              to={button.path}
+              className="bg-teal-300 py-3 text-xl text-white w-full rounded-md text-center"
             >
+              <button key={button.id}></button>
               {button.name}
-            </button>
+            </Link>
           );
         })}
       </div>
