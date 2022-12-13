@@ -8,7 +8,7 @@ import {
 } from "../components";
 
 const BuyerApplication = () => {
-  const [stage, setStage] = useState(5);
+  const [stage, setStage] = useState(1);
   return (
     <>
       {stage === 1 ? (

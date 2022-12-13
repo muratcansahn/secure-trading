@@ -80,3 +80,13 @@ export const seller: ISeller = {
   SellPrice: 500000,
   RefCode: "GTX45ETC",
 };
+interface IApplicationStatus {
+  Ref: string;
+  ApplicationStatus: string;
+  PaymentStatus: string;
+}
+export const applicationStatus: IApplicationStatus = {
+  Ref: "GTX45ETC",
+  ApplicationStatus: "Alıcı Başvurusu Yapıldı",
+  PaymentStatus: "Ödeme Bekleniyor",
+};
