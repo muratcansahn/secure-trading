@@ -20,3 +20,48 @@ export const buttons = [
     path: "/application-cancel",
   },
 ];
+
+export const formItems = [
+  {
+    id: "TcNo",
+    placeholder: "TcNo",
+  },
+  {
+    id: "SellerName",
+    placeholder: "SellerName",
+  },
+  {
+    id: "SellerPhone",
+    placeholder: "SellerPhone",
+  },
+  {
+    id: "SellerEmail",
+    placeholder: "SellerEmail",
+  },
+  {
+    id: "BuyerName",
+    placeholder: "BuyerName",
+  },
+  {
+    id: "BuyerPhone",
+    placeholder: "BuyerPhone",
+  },
+  {
+    id: "BuyerEmail",
+    placeholder: "BuyerEmail",
+  },
+  {
+    id: "SellerIban",
+
+    placeholder: "SellerIban",
+  },
+  {
+    id: "Licence",
+    placeholder: "Licence",
+  },
+  {
+    id: "Amount",
+
+    placeholder: "Amount",
+  },
+];

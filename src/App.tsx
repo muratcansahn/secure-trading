@@ -5,7 +5,7 @@ import {
   SellerApplciation,
   ApplicationStatus,
 } from "./pages";
-import { Navbar } from "./components";
+import { Navbar, Container } from "./components";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
