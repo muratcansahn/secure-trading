@@ -65,3 +65,18 @@ export const formItems = [
     placeholder: "Amount",
   },
 ];
+interface ISeller {
+  Name: string;
+  Phone: number;
+  Plaka: string;
+  SellPrice: number;
+  RefCode: string;
+}
+
+export const seller: ISeller = {
+  Name: "EMRE ALTIN",
+  Phone: 5555555555,
+  Plaka: "34 A 1234",
+  SellPrice: 500000,
+  RefCode: "GTX45ETC",
+};

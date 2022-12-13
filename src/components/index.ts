@@ -3,3 +3,8 @@ export { default as Container } from "./Container";
 export { default as SellerStage1 } from "./SellerStage1";
 export { default as SellerStage2 } from "./SellerStage2";
 export { default as SellerStage3 } from "./SellerStage3";
+export { default as BuyerStage1 } from "./BuyerStage1";
+export { default as BuyerStage2 } from "./BuyerStage2";
+export { default as BuyerStage3 } from "./BuyerStage3";
+export { default as BuyerStage4 } from "./BuyerStage4";
+export { default as BuyerStage5 } from "./BuyerStage5";

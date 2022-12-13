@@ -49,7 +49,7 @@ const SellerStage1 = (props) => {
       </p>
       <div className="border-t-2 w-full mt-7">
         <button
-          className="bg-teal-300 px-5 py-2 rounded-md mt-7 "
+          className="bg-teal-400 px-5 py-2 rounded-md mt-7 "
           onClick={() => setStage(2)}
         >
           Talep Oluştur

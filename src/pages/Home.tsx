@@ -11,7 +11,7 @@ const Home: FC = () => {
           return (
             <Link
               to={button.path}
-              className="bg-teal-300 py-3 text-xl text-white w-full rounded-md text-center"
+              className="bg-teal-400 py-3 text-xl text-white w-full rounded-md text-center"
             >
               <button key={button.id}></button>
               {button.name}
