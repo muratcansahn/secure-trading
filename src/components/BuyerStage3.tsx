@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
+import { smsCode } from "../utils";
 
 const BuyerStage3 = (props) => {
   const { setStage } = props;
   const [code, setCode] = useState<number>(0);
   const [timer, setTimer] = useState<number>(180);
-  let refCode = 135125;
   const checkRefCode = () => {
-    if (code === refCode) {
+    if (code === smsCode) {
       setStage(4);
     } else {
       alert("Lütfen Geçerli Bir Onay Kodu Giriniz");

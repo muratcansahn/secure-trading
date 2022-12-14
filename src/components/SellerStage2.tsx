@@ -1,10 +1,10 @@
 import { useState } from "react";
+import { smsCode } from "../utils";
 
 const SellerStage2 = (props) => {
   const [code, setCode] = useState<Number>(0);
   const { setStage } = props;
-  let smsCode = 165145;
-  console.log(code);
+
   const checkSmsCode = () => {
     if (code === smsCode) {
       setStage(3);

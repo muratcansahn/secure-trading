@@ -5,7 +5,7 @@ import {
   ApplicationCancel3,
 } from "../components";
 const ApplicationCancel = () => {
-  const [stage, setStage] = useState(3);
+  const [stage, setStage] = useState(1);
   console.log(stage);
   return (
     <>

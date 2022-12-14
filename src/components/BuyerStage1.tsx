@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { refCode } from "../utils";
 
 const BuyerStage1 = (props) => {
   const { setStage } = props;
   const [code, setCode] = useState<String>("0");
-  let refCode = "GTX45ETC";
+
   const checkRefCode = () => {
     if (code === refCode) {
       setStage(2);

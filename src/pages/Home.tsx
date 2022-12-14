@@ -12,6 +12,7 @@ const Home: FC = () => {
             <Link
               to={button.path}
               className="bg-teal-400 py-3 text-xl text-white w-full rounded-md text-center"
+              key={button.id}
             >
               <button key={button.id}></button>
               {button.name}

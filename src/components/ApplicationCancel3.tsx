@@ -5,10 +5,10 @@ const ApplicationCancel3 = (props) => {
       <h4 className="text-xl text-green-700 text-bold my-5">
         Başvuru Tamamlandı!{" "}
       </h4>
-      <p className="text-green-700 py-7 border-t-2 border-b-2 border-slate-400">
+      <p className="text-green-700 py-7 border-t-2 border-slate-400">
         EPTX48XC referans nolu başvurunuz iptal edilmiştir
       </p>
-      <p>
+      <p className="pt-5 border-t-2 border-slate-400">
         <Link to="/" className="text-blue-500">
           Anasayfaya Dön
         </Link>

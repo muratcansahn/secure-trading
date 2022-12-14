@@ -20,49 +20,50 @@ export const buttons = [
     path: "/application-cancel",
   },
 ];
+interface IFormItems {
+  id: string;
+  placeholder: string;
+  name?: any;
+}
 
-export const formItems = [
+export const formItems: IFormItems[] = [
   {
     id: "TcNo",
-    placeholder: "TcNo",
+    placeholder: "T.C. Kimlik Numarası ",
   },
   {
     id: "SellerName",
-    placeholder: "SellerName",
+    placeholder: "Satıcı Adı ve Soyadı",
   },
   {
     id: "SellerPhone",
-    placeholder: "SellerPhone",
+    placeholder: "Satıcı Telefon Numarası",
   },
   {
     id: "SellerEmail",
-    placeholder: "SellerEmail",
-  },
-  {
-    id: "BuyerName",
-    placeholder: "BuyerName",
+    placeholder: "Satıcı E-posta  adresi",
   },
   {
     id: "BuyerPhone",
-    placeholder: "BuyerPhone",
+    placeholder: "Alıcı Cep Telefonu",
   },
+
   {
     id: "BuyerEmail",
-    placeholder: "BuyerEmail",
+    placeholder: "Alıcı E-Posta Adresi",
   },
   {
     id: "SellerIban",
 
-    placeholder: "SellerIban",
+    placeholder: "Satıcı IBAN",
   },
   {
     id: "Licence",
-    placeholder: "Licence",
+    placeholder: "Araç Plakası",
   },
   {
     id: "Amount",
-
-    placeholder: "Amount",
+    placeholder: "Satış Tutarı",
   },
 ];
 interface ISeller {
@@ -90,3 +91,5 @@ export const applicationStatus: IApplicationStatus = {
   ApplicationStatus: "Alıcı Başvurusu Yapıldı",
   PaymentStatus: "Ödeme Bekleniyor",
 };
+export const smsCode: number = 165145;
+export const refCode: string = "GTX45ETC";

@@ -6,7 +6,7 @@ import {
 } from "../components";
 
 const ApplicationStatus = () => {
-  const [stage, setStage] = useState(3);
+  const [stage, setStage] = useState(1);
   return (
     <>
       {stage === 1 ? (
