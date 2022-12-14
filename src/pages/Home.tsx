@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Home: FC = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-[500px]">
       {/* Button wrapper */}
       <div className="flex w-[350px] font-bold  flex-wrap gap-y-5">
         {buttons.map((button) => {
